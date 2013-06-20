@@ -1,7 +1,19 @@
 Rainbow.js
 ==========
 
-A text effect jquery plugin
+A text effect jquery plugin (tested with jQuery 1.6.3)
+
+## Usage
+
+```html
+<p id="#container">This an awesome rainbow text</p>
+
+<script src="jquery.js"></script>
+<script src="jquery.rainbow.js"></script>
+<script>
+    $("#container").rainbow();
+</script>
+```
 
 
 ## Examples
@@ -15,6 +27,9 @@ A text effect jquery plugin
 ## Website using rainbow
 
 - [TrueColor Homepage](http://www.truecolor.be)
+
+
+## Documentation
 
 
 ### Options
